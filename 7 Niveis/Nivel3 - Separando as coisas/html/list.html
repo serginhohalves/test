@@ -1,0 +1,33 @@
+<html>
+	<head>
+	<meta charset ="utf-8">
+	<title> Listagem  de Pessoas</title>
+	<link href='css/list.css' rel='stylesheet' type='text/css'  media='screen'>
+	<link href='css/fontawesome/css/all.min.css' rel='stylesheet' type='text/css' media='screen'>
+	
+	<body>	
+		<table border = 1>
+			<thead>
+				<tr>
+					<td></td>
+					<td></td>
+					<td>id</td>
+					<td>Nome</td>
+					<td>Endereço</td>
+					<td>Bairro</td>
+					<td>Telefone</td>
+					<td>Email</td>
+				</tr>
+			</thead>
+			<tbody>
+			<!-- Iserir aqui uma marcação para que o conteudo da tabela seja exibido -->
+			{items}	
+			</tbody>
+		</table>			
+		
+		<button onclick="window.location='pessoa_form.php'" style='background-color:#D3FFCE'>
+			<i class="fa-solid fa-plus"></i> Inserir
+		</button>
+		
+	</body>	
+</html>
